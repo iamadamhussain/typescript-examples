@@ -7,12 +7,12 @@ let x = 10;
 const y = 20;
 
 let sum;
-const title = 'Codevolution';
+const title = 'Adam';
 
 // Basic Variable Types
 let isBeginner: boolean = true;
 let total: number = 0;
-let name: string = 'Vishwas';
+let name: string = 'Pallavi';
 
 let sentence: string = `My name is ${name}
 I am a beginner in TypeScript`;
@@ -34,7 +34,7 @@ let list2: Array<number> = [1, 2, 3];
 
 // Tuple type
 
-let person1: [string, number] = ['Chris', 22];
+let person1: [string, number] = ['raj', 22];
 
 // Enum type
 enum Color {Red, Green, Blue}
@@ -44,7 +44,7 @@ console.log(c);
 // Any type
 let randomValue: any = 10;
 randomValue = true;
-randomValue = 'Vishwas';
+randomValue = 'Raj';
 
 // Unknown type
 let myVariable: any = 10;
@@ -92,7 +92,7 @@ function fullName(person: Person) {
 }
 
 let p = {
-  firstName: 'Bruce'
+  firstName: 'Adam'
 };
 fullName(p);
 
@@ -110,7 +110,7 @@ class Employee {
   }
 }
 
-let emp1 = new Employee('Vishwas');
+let emp1 = new Employee('Adam');
 console.log(emp1.employeeName);
 emp1.greet();
 
@@ -123,7 +123,7 @@ class Manager extends Employee{
   }
 }
 
-let m1 = new Manager('Bruce');
+let m1 = new Manager('Adam');
 m1.delegateWork();
 m1.greet();
 console.log(m1.employeeName);
